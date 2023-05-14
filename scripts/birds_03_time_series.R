@@ -25,6 +25,6 @@ birds_time %>%
          y=num_obs))+
   geom_line(colour="red")+
   geom_smooth(colour="blue",
-              se= FALSE)+
+              se=FALSE)+
   theme_classic()
  
