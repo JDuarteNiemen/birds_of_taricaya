@@ -98,3 +98,6 @@ all_birds <- all_birds %>%
 
 glimpse(all_birds)
 
+
+all_birds %>%
+  distinct(sex)
